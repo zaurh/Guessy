@@ -9,13 +9,13 @@ I've just made an application for fun using Genderize.io Api
 
 
 # This app contains: 
-### Kotlin
-### Jetpack Compose 
-### MVVM
-### Coroutines
-### Clean Architecture
-### Retrofit 
-### Coroutines
-### Hilt
+Kotlin
+Jetpack Compose 
+MVVM
+Coroutines
+Clean Architecture
+Retrofit 
+Coroutines
+Hilt
 
 
