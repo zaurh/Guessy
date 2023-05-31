@@ -9,13 +9,19 @@ I've just made an application for fun using Genderize.io Api
 
 
 # This app contains: 
+
 Kotlin
-Jetpack Compose 
+
+Jetpack compose
+
 MVVM
-Coroutines
+
 Clean Architecture
-Retrofit 
-Coroutines
-Hilt
+
+Coroutines (for asyncronous)
+
+Retrofit (for retrieving data from API)
+
+Dagger Hilt (for dependency injection)
 
 
