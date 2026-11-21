@@ -2,6 +2,6 @@
 <resources>
 
     <style name="Theme.Agify" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:windowBackground">@color/mint</item>
     </style>
 </resources>
