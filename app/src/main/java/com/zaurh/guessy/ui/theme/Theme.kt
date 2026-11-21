@@ -19,7 +19,7 @@ private val GuessyColors = lightColors(
 )
 
 @Composable
-fun AgifyTheme(content: @Composable () -> Unit) {
+fun GuessyTheme(content: @Composable () -> Unit) {
     MaterialTheme(
         colors = GuessyColors,
         typography = Typography,

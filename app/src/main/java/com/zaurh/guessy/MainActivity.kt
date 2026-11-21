@@ -7,7 +7,7 @@ import androidx.activity.SystemBarStyle
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import com.zaurh.guessy.presentation.main.MainRoute
-import com.zaurh.guessy.ui.theme.AgifyTheme
+import com.zaurh.guessy.ui.theme.GuessyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         )
         super.onCreate(savedInstanceState)
         setContent {
-            AgifyTheme {
+            GuessyTheme {
                 MainRoute()
             }
         }

@@ -1,7 +1,7 @@
 package com.zaurh.guessy.data.repository
 
 import com.zaurh.guessy.common.Resource
-import com.zaurh.guessy.data.remote.AgifyApi
+import com.zaurh.guessy.data.remote.GuessyApi
 import com.zaurh.guessy.data.remote.dto.toResult
 import com.zaurh.guessy.domain.model.ResultModel
 import com.zaurh.guessy.domain.repository.Repository
@@ -12,7 +12,7 @@ import java.io.IOException
 import javax.inject.Inject
 
 class RepositoryImpl @Inject constructor(
-    private val api: AgifyApi
+    private val api: GuessyApi
 ): Repository {
 
     override fun getName(name: String): Flow<Resource<ResultModel>> = flow{

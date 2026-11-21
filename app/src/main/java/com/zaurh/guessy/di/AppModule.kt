@@ -1,7 +1,7 @@
 package com.zaurh.guessy.di
 
 import com.zaurh.guessy.common.Constants.BASE_URL
-import com.zaurh.guessy.data.remote.AgifyApi
+import com.zaurh.guessy.data.remote.GuessyApi
 import com.zaurh.guessy.data.repository.RepositoryImpl
 import com.zaurh.guessy.domain.repository.Repository
 import dagger.Module
@@ -26,12 +26,12 @@ object AppModule {
 
     @Singleton
     @Provides
-    fun provideRetrofitApi(retrofit: Retrofit): AgifyApi{
-        return retrofit.create(AgifyApi::class.java)
+    fun provideRetrofitApi(retrofit: Retrofit): GuessyApi{
+        return retrofit.create(GuessyApi::class.java)
     }
 
     @Singleton
     @Provides
-    fun provideRepository(api: AgifyApi): Repository = RepositoryImpl(api)
+    fun provideRepository(api: GuessyApi): Repository = RepositoryImpl(api)
 
 }

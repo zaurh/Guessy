@@ -68,7 +68,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import com.zaurh.guessy.domain.model.ResultModel
-import com.zaurh.guessy.ui.theme.AgifyTheme
+import com.zaurh.guessy.ui.theme.GuessyTheme
 import com.zaurh.guessy.ui.theme.Blush
 import com.zaurh.guessy.ui.theme.ButtonBlue
 import com.zaurh.guessy.ui.theme.ErrorRed
@@ -444,7 +444,7 @@ private fun AboutDialog(onDismiss: () -> Unit) {
 @Preview(showBackground = true, heightDp = 800)
 @Composable
 private fun MainScreenMalePreview() {
-    AgifyTheme {
+    GuessyTheme {
         MainScreen(
             state = MainState(
                 query = "Mark",
@@ -458,7 +458,7 @@ private fun MainScreenMalePreview() {
 @Preview(showBackground = true, heightDp = 800)
 @Composable
 private fun MainScreenFemalePreview() {
-    AgifyTheme {
+    GuessyTheme {
         MainScreen(
             state = MainState(
                 query = "Mercedes",
@@ -472,7 +472,7 @@ private fun MainScreenFemalePreview() {
 @Preview(showBackground = true, heightDp = 800)
 @Composable
 private fun MainScreenIdlePreview() {
-    AgifyTheme {
+    GuessyTheme {
         MainScreen(state = MainState(), onIntent = {})
     }
 }
